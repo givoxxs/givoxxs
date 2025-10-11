@@ -1,4 +1,4 @@
-<h1 align="center">Hi there 👋, I'm Phan Văn Toàn (Giáo)</h1>
+<h1 align="center">Hi there 👋, I'm Phan Van Toan (Giáo)</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00C2CB&center=true&vCenter=true&width=480&lines=Welcome+to+my+GitHub!;AI+%26+Robotics+Engineer;From+DUT+-+University+of+Danang" />
