@@ -51,15 +51,6 @@ AI-driven Robotics, Edge Computing, and Intelligent System Design
 | 🍜 **Da Nang Culinary Atlas** | Data pipeline merging ShopeeFood & Google Maps APIs with PostgreSQL |
 
 ---
-
-### 📈 Most Used Languages
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=givoxxs&layout=compact&langs_count=8&theme=radical" />
-</p>
-
----
-
 ### 🌐 Connect with Me
 
 <p align="center">
