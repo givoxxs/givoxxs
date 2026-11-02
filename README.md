@@ -1,64 +1,93 @@
-<h1 align="center" style="font-family: 'JetBrains Mono', monospace;">Hi, I'm Phan Van Toan (Giáo)</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" alt="Phan Văn Toàn — Giáo / givoxxs. Robotics, AI and software systems." width="100%">
+</picture>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=3000&pause=800&color=00C2CB&center=true&vCenter=true&width=520&lines=AI+%26+Robotics+Engineer;Embedded+Systems+Developer;From+DUT+-+University+of+Danang" />
-</p>
+# Hi, I'm Toàn — you can call me Giáo.
+
+I build at the intersection of **robotics, AI, and software systems**: simulation, edge intelligence, and practical tools for developers.
+
+[LinkedIn](https://www.linkedin.com/in/givoxxs/) · [Email](mailto:phanvantoan.contact@gmail.com) · [Explore my repositories](https://github.com/givoxxs?tab=repositories)
+
+### What I work on
+
+- **Robotics & simulation** — ROS 2, Isaac Sim, Gazebo, and the software around robotic systems.
+- **AI & edge intelligence** — model evaluation, computer vision, and deployment on constrained hardware.
+- **Developer tools & infrastructure** — reproducible workflows, backend services, and useful automation.
+
+**Background:** Information Technology at DUT, University of Danang. Experience at **SOC.ONE** and **VJ Technologies**.
+
+### Selected work
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+#### [01 / Skills Distillation](https://github.com/givoxxs/Skills_Distillation)
+
+My 2026 thesis project: rewriting structured skill instructions through a **Teacher → Student → Judge** loop to improve small-model execution, without retraining model weights.
+
+**Python · LLM evaluation · FastAPI · Next.js**
+
+[Code & experiments](https://github.com/givoxxs/Skills_Distillation) · [Dashboard](https://skills-distillation.vercel.app)
+
+</td>
+<td valign="top" width="50%">
+
+#### [02 / README Reality Check](https://github.com/givoxxs/readme-reality)
+
+A local-first CLI and GitHub Action that checks README setup instructions against repository evidence: scripts, paths, lockfiles, and environment templates.
+
+**JavaScript / TypeScript tooling · Static analysis · CI**
+
+[Code & usage](https://github.com/givoxxs/readme-reality)
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+#### [03 / VPP Document Agent](https://github.com/givoxxs/devday_2026_vibeteam)
+
+A team project for DevDay 2026, processing Japanese solar-project documents. My contribution focused on **PDF/image processing and Vision LLM experiments**.
+
+**Python · PDF processing · Vision LLMs**
+
+[Team project & my role](https://github.com/givoxxs/devday_2026_vibeteam#team--vibe-team)
+
+</td>
+<td valign="top" width="50%">
+
+#### [04 / Da Nang Culinary Atlas](https://github.com/givoxxs/Danang-Culinary-Atlas)
+
+A culinary discovery backend covering restaurants, dishes, reviews, geographic data, and role-based access.
+
+**Java · Spring Boot · PostgreSQL**
+
+[Backend](https://github.com/givoxxs/Danang-Culinary-Atlas) · [Frontend](https://github.com/givoxxs/Danang-Culinary-Atlas-FE)
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>A result from Skills Distillation</strong></summary>
+
+The repository reports a best observed **23.6% relative score gain** for `slack-gif-creator`, from **0.716 in round 1 to 0.886 at the peak round**, under the project's evaluation setup. This is a peak experimental result; the final-round score was 0.865.
+
+[Evaluation table, methodology, and limitations](https://github.com/givoxxs/Skills_Distillation#kết-quả-thực-nghiệm)
+
+</details>
+
+### Tools I use
+
+| Area | Tools |
+| --- | --- |
+| Languages | Python, C/C++, TypeScript, Java |
+| Robotics & edge | ROS 2, Isaac Sim, Gazebo, GAP SDK, PULP SDK |
+| AI | PyTorch, TensorFlow, OpenCV, LLM evaluation |
+| Software & workflow | FastAPI, Spring Boot, PostgreSQL, Linux, Git, CI |
 
 ---
 
-## 👨‍💻 About Me
-
-🎓 4th-year IT student at  
-Faculty of Information Technology – University of Science and Technology (DUT), University of Danang  
-
-💡 Bridging **AI** and **Low-level Systems**, I build intelligent robotic and embedded applications for real-world systems.
-
-### Core Focus Areas
-- 🤖 Robotics & Simulation — ROS2, Gazebo, Isaac Sim  
-- ⚙️ Embedded AI — C/C++, PULP SDK, GAP SDK (Edge AI, Drones)  
-- 🧠 AI / ML / DL / LLMs — Computer Vision, NLP, Model Optimization  
-- 💻 Software Engineering — Backend systems, pipelines, DevOps  
-
-📈 Research Interests: AI-driven Robotics, Edge Computing, Intelligent System Design
-
----
-
-## 🧰 Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,tensorflow,pytorch,ros,opencv,linux,git,react,ts,nodejs,vscode" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI_Engineer-00C2CB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Robotics_Developer-008F8C?style=flat-square&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/Embedded_Systems-006666?style=flat-square&logo=c&logoColor=white" />
-</p>
-
----
-
-## 🚀 Featured Projects
-
-| Project | Description |
-|----------|-------------|
-| BabyCare AI | AI system for infant cry & posture detection (audio + vision) |
-| LLM Resume Parser | FastAPI app for parsing resumes using SpaCy & Transformers |
-| Drone AI Control (GAP8) | Edge AI model deployment on GAP8 + Crazyflie drone |
-| PBL4 – IDS System | Intrusion detection & prevention with Snort + Python GUI |
-| Da Nang Culinary Atlas | Data pipeline merging ShopeeFood & Google Maps APIs with PostgreSQL |
-
----
-
-## 🌐 Connect with Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/givoxxs/" target="_blank">LinkedIn</a> •
-  <a href="mailto:phanvantoan.contact@gmail.com">Gmail</a> •
-  <a href="https://github.com/givoxxs" target="_blank">GitHub</a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2CB,100:00C2CB&height=90&section=footer"/>
-</p>
+Interested in robotics, edge AI, or building useful tools? [Let's talk.](mailto:phanvantoan.contact@gmail.com)
