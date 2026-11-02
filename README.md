@@ -34,13 +34,13 @@ My 2026 thesis project: rewriting structured skill instructions through a **Teac
 </td>
 <td valign="top" width="50%">
 
-#### [02 / README Reality Check](https://github.com/givoxxs/readme-reality)
+#### [02 / Baby Posture Analysis](https://github.com/givoxxs/baby_posture_analysis)
 
-A local-first CLI and GitHub Action that checks README setup instructions against repository evidence: scripts, paths, lockfiles, and environment templates.
+A computer vision pipeline for analyzing infant posture in images and video, combining image preprocessing, body keypoints, and posture classification behind a REST API.
 
-**JavaScript / TypeScript tooling · Static analysis · CI**
+**Python · FastAPI · MediaPipe · OpenCV · scikit-learn**
 
-[Code & usage](https://github.com/givoxxs/readme-reality)
+[Code & pipeline](https://github.com/givoxxs/baby_posture_analysis)
 
 </td>
 </tr>
