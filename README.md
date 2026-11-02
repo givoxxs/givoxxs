@@ -1,93 +1,114 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="Phan Văn Toàn — Giáo / givoxxs. Robotics, AI and software systems." width="100%">
-</picture>
+<img src="assets/studio.png" alt="An imagined cutaway of Giáo’s studio: a computer vision desk, a robotics shelf, and a wall of research notes in teal, cream, and warm orange." width="100%">
 
-# Hi, I'm Toàn — you can call me Giáo.
+# Come in. There’s something on the workbench.
 
-I build at the intersection of **robotics, AI, and software systems**: simulation, edge intelligence, and practical tools for developers.
+I'm **Phan Văn Toàn** — **Giáo** to friends, `givoxxs` here.
 
-[LinkedIn](https://www.linkedin.com/in/givoxxs/) · [Email](mailto:phanvantoan.contact@gmail.com) · [Explore my repositories](https://github.com/givoxxs?tab=repositories)
+I work across **robotics, AI, and software systems**: from body keypoints and small-model experiments to simulation and the backend that connects things.
 
-### What I work on
+This is my little studio on GitHub. Pick a project, open a notebook, follow a thread.
 
-- **Robotics & simulation** — ROS 2, Isaac Sim, Gazebo, and the software around robotic systems.
-- **AI & edge intelligence** — model evaluation, computer vision, and deployment on constrained hardware.
-- **Developer tools & infrastructure** — reproducible workflows, backend services, and useful automation.
+[The workbench](#the-workbench) · [The research notebook](#the-research-notebook) · [The tool shelf](#the-tool-shelf) · [Leave a note](mailto:phanvantoan.contact@gmail.com)
 
-**Background:** Information Technology at DUT, University of Danang. Experience at **SOC.ONE** and **VJ Technologies**.
+## The workbench
 
-### Selected work
+*A few things I've built. Open a drawer to look inside.*
 
-<table>
-<tr>
-<td valign="top" width="50%">
+<details open>
+<summary><strong>The vision desk — Baby Posture Analysis</strong></summary>
 
-#### [01 / Skills Distillation](https://github.com/givoxxs/Skills_Distillation)
+### From pixels to posture.
 
-My 2026 thesis project: rewriting structured skill instructions through a **Teacher → Student → Judge** loop to improve small-model execution, without retraining model weights.
+A computer vision project for analyzing infant posture in images and video. It connects image preprocessing, MediaPipe body keypoints, and a Random Forest classifier to a FastAPI service.
 
-**Python · LLM evaluation · FastAPI · Next.js**
+```text
+image / video → preprocessing → body keypoints → posture analysis → API
+```
 
-[Code & experiments](https://github.com/givoxxs/Skills_Distillation) · [Dashboard](https://skills-distillation.vercel.app)
+**Inside the drawer:** training notebooks, image and video analysis endpoints, a web interface, and Firebase integration.
 
-</td>
-<td valign="top" width="50%">
+**Made with:** Python · FastAPI · MediaPipe · OpenCV · scikit-learn
 
-#### [02 / Baby Posture Analysis](https://github.com/givoxxs/baby_posture_analysis)
-
-A computer vision pipeline for analyzing infant posture in images and video, combining image preprocessing, body keypoints, and posture classification behind a REST API.
-
-**Python · FastAPI · MediaPipe · OpenCV · scikit-learn**
-
-[Code & pipeline](https://github.com/givoxxs/baby_posture_analysis)
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-
-#### [03 / VPP Document Agent](https://github.com/givoxxs/devday_2026_vibeteam)
-
-A team project for DevDay 2026, processing Japanese solar-project documents. My contribution focused on **PDF/image processing and Vision LLM experiments**.
-
-**Python · PDF processing · Vision LLMs**
-
-[Team project & my role](https://github.com/givoxxs/devday_2026_vibeteam#team--vibe-team)
-
-</td>
-<td valign="top" width="50%">
-
-#### [04 / Da Nang Culinary Atlas](https://github.com/givoxxs/Danang-Culinary-Atlas)
-
-A culinary discovery backend covering restaurants, dishes, reviews, geographic data, and role-based access.
-
-**Java · Spring Boot · PostgreSQL**
-
-[Backend](https://github.com/givoxxs/Danang-Culinary-Atlas) · [Frontend](https://github.com/givoxxs/Danang-Culinary-Atlas-FE)
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><strong>A result from Skills Distillation</strong></summary>
-
-The repository reports a best observed **23.6% relative score gain** for `slack-gif-creator`, from **0.716 in round 1 to 0.886 at the peak round**, under the project's evaluation setup. This is a peak experimental result; the final-round score was 0.865.
-
-[Evaluation table, methodology, and limitations](https://github.com/givoxxs/Skills_Distillation#kết-quả-thực-nghiệm)
+[Explore the project](https://github.com/givoxxs/baby_posture_analysis) · [Open the training notebooks](https://github.com/givoxxs/baby_posture_analysis/tree/main/ML_train)
 
 </details>
 
-### Tools I use
+<details>
+<summary><strong>The experiment monitor — Skills Distillation</strong> · my 2026 thesis</summary>
 
-| Area | Tools |
-| --- | --- |
-| Languages | Python, C/C++, TypeScript, Java |
-| Robotics & edge | ROS 2, Isaac Sim, Gazebo, GAP SDK, PULP SDK |
-| AI | PyTorch, TensorFlow, OpenCV, LLM evaluation |
-| Software & workflow | FastAPI, Spring Boot, PostgreSQL, Linux, Git, CI |
+### Can better instructions help a smaller model?
+
+My graduation project explores rewriting structured skill documents through a **Student → Judge → Teacher** loop. The instructions change; the model weights do not.
+
+The repository includes experiments on three skills, round-by-round results, and a dashboard for inspecting learning curves and instruction changes.
+
+**Made with:** Python · LLM evaluation · FastAPI · Next.js
+
+[Read the experiments](https://github.com/givoxxs/Skills_Distillation) · [Visit the dashboard](https://skills-distillation.vercel.app)
+
+</details>
+
+<details>
+<summary><strong>The paper tray — VPP Document Agent</strong> · DevDay 2026 team project</summary>
+
+### Making sense of a stack of scanned documents.
+
+A team project for processing Japanese solar-project completion documents. My part focused on **PDF and image processing**, including extraction benchmarks and Vision LLM experiments.
+
+**Made with:** Python · PyMuPDF · pdfplumber · Vision LLMs
+
+[Meet the team & see my role](https://github.com/givoxxs/devday_2026_vibeteam#team--vibe-team) · [Read my research notes](https://github.com/givoxxs/devday_2026_vibeteam/blob/main/docs/research_toan.md)
+
+</details>
+
+<details>
+<summary><strong>The city map — Da Nang Culinary Atlas</strong></summary>
+
+### A backend for exploring food in the city.
+
+A culinary discovery system with restaurants, dishes, reviews, geographic data, and role-based access. The backend brings these pieces together with Spring Boot and PostgreSQL.
+
+**Made with:** Java · Spring Boot · PostgreSQL
+
+[Explore the backend](https://github.com/givoxxs/Danang-Culinary-Atlas) · [See the frontend](https://github.com/givoxxs/Danang-Culinary-Atlas-FE)
+
+</details>
+
+## The research notebook
+
+*One observation worth keeping next to the code.*
+
+<details>
+<summary><strong>The best round wasn't the last round.</strong> A note from Skills Distillation.</summary>
+
+In the repository's reported experiments, all three skills peaked before their final round.
+
+For `slack-gif-creator`, the score moved from **0.716** in round 1 to **0.886** at its peak, then finished at **0.865**. The reported **23.6% relative gain** compares round 1 with that peak, under this project's evaluation setup.
+
+That leaves a useful question: when should an instruction-rewriting loop stop?
+
+[See the results, methodology, and limitations](https://github.com/givoxxs/Skills_Distillation#kết-quả-thực-nghiệm)
+
+</details>
+
+## The tool shelf
+
+**Robotics & edge** — ROS 2 · Isaac Sim · Gazebo · GAP SDK · PULP SDK<br>
+**AI & vision** — PyTorch · TensorFlow · OpenCV · LLM evaluation<br>
+**Software** — Python · C/C++ · TypeScript · Java · FastAPI · Spring Boot · PostgreSQL<br>
+**Everyday tools** — Linux · Git · CI
+
+<details>
+<summary><strong>A little about the person at the desk</strong></summary>
+
+My background is in Information Technology at **DUT, University of Danang**.
+
+I'm interested in the space where models meet systems: simulation, edge intelligence, and useful software that makes experiments easier to run and understand.
+
+[More repositories](https://github.com/givoxxs?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/givoxxs/)
+
+</details>
 
 ---
 
-Interested in robotics, edge AI, or building useful tools? [Let's talk.](mailto:phanvantoan.contact@gmail.com)
+Have something interesting on your workbench? [Leave me a note.](mailto:phanvantoan.contact@gmail.com)
