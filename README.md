@@ -1,96 +1,86 @@
-<p align="center">
-  <img src="assets/banner_mecha.png" alt="Anime Mecha Robotics Simulation Command Deck" width="100%" style="border-radius: 10px;">
+<img align="right" src="assets/mascot_capoo_multitask.gif" width="200" alt="Coding Mascot" style="margin-left: 20px; margin-bottom: 20px;">
+
+# Hi, I'm Phan Van Toan (Giáo) 👋
+
+<p>
+  <strong>Software & Robotics Simulation Engineer · Creative Systems Tinkerer</strong><br>
+  <em>Da Nang, Vietnam</em>
 </p>
 
-<h1 align="center">PHAN VAN TOAN // 全 (GIÁO)</h1>
-
-<p align="center">
-  <strong>Autonomous UAV Simulation Architect · Robotics Software Engineer · Creative Hacker</strong><br>
-  <em>Sector: Da Nang, Vietnam</em>
-</p>
-
-<p align="center">
+<p>
   <a href="https://github.com/givoxxs">
-    <img src="https://img.shields.io/badge/OPERATOR-GIVOXXS-00e5ff?style=for-the-badge&logo=github&logoColor=black" alt="Operator" />
+    <img src="https://img.shields.io/badge/GitHub-givoxxs-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-00ff66?style=for-the-badge" alt="Status Online" />
+  <a href="https://www.linkedin.com/in/givoxxs/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
   &nbsp;
-  <a href="#comm-link">
-    <img src="https://img.shields.io/badge/UPLINK-OPEN-ff007f?style=for-the-badge" alt="Comm Link" />
+  <a href="mailto:phanvantoan.contact@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
-
-<p align="center">
-  <a href="#manifesto">Manifesto</a> •
-  <a href="#mission-01">3D Chamber</a> •
-  <a href="#hangar">The Hangar</a> •
-  <a href="#avionics">Avionics Stack</a> •
-  <a href="#citations">Citations</a> •
-  <a href="#comm-link">Comm Link</a>
-</p>
-
----
-
-<h3 id="manifesto">⚡ The Simulation Manifesto</h3>
 
 > *"Before an autonomous drone takes to the real sky, it must master a million flight trajectories in simulated physics."*
 
-I build high-fidelity **physics simulations, digital twins, and autonomous UAV flight pipelines**. My focus is pure robotics software: orchestrating distributed ROS 2 nodes, state estimation, and sensor fusion algorithms so intelligent machines can navigate complex environments with zero room for error.
+I am a software engineer focused on **robotics simulation, digital twins, and autonomous UAV flight stacks**. I build high-fidelity virtual proving grounds, distributed ROS 2 networks, and state estimation pipelines that allow autonomous machines to simulate, evaluate, and navigate with mathematical precision.
 
-When I step away from flight simulation engines, I build experimental 3D WebGL rooms, automatic prompt optimization loops, and modern web architectures.
+Beyond simulation engines, I'm an active creative tinkerer—building interactive 3D WebGL rooms, automatic prompt optimization loops, and modern web architectures.
 
-```text
-  [ REAL WORLD SENSORS ]  ←───  [ DIGITAL TWIN DYNAMICS ]
-            │                                  │
-            ▼                                  ▼
-  [ STATE ESTIMATION ]   ───►   [ TRAJECTORY PLANNER ]   ───►   [ AUTONOMOUS FLIGHT ]
-```
+<p>
+  <a href="#spatial-archive">The 3D Archive</a> •
+  <a href="#featured-projects">Featured Projects</a> •
+  <a href="#skills">Tech Stack</a> •
+  <a href="#awards">Recognition</a> •
+  <a href="#connect">Connect</a>
+</p>
+
+<br clear="right" />
 
 ---
 
-<h2 id="mission-01">📡 [MISSION 01] :: The 3D Spatial Chamber</h2>
+<h2 id="spatial-archive">🏛️ The Spatial Archive — A 3D Graduation Room</h2>
 
 *When graduation arrived, sending a static PDF or traditional invite felt too ordinary. So I built an interactive 3D room in WebGL.*
 
 <p align="center">
   <a href="https://the-giao-archive.vercel.app/" target="_blank">
-    <img src="assets/preview_giao_archive.png" alt="The Giao Archive 3D Room Preview" width="100%" style="border-radius: 8px; border: 1px solid #00e5ff33; box-shadow: 0 4px 25px rgba(0,229,255,0.15);">
+    <img src="assets/preview_giao_archive.png" alt="The Giao Archive 3D Room Preview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
   </a>
 </p>
 
 <p align="center">
-  👉 <strong><a href="https://the-giao-archive.vercel.app/" target="_blank">ENTER CHAMBER: THE GIÁO ARCHIVE (3D WebGL Room) ↗</a></strong>
+  👉 <strong><a href="https://the-giao-archive.vercel.app/" target="_blank">Step inside: The Giáo Archive (Interactive 3D Room) ↗</a></strong>
 </p>
 
-- **The Experience:** Orbit in full 3D, toggle ambient desk lighting, inspect bookshelf artifacts, and unlock college memories preserved inside an isometric virtual room.
+- **The Experience:** Orbit in full 3D, toggle ambient desk lighting, click on items around the room, and explore four years of college memories preserved in an isometric virtual world.
 - **Tech Behind It:** Three.js · WebGL · React · Vite · Vercel
 
 ---
 
-<h2 id="hangar">🛠️ [THE HANGAR] :: Deployed Systems</h2>
+<h2 id="featured-projects">🛠️ Featured Projects</h2>
 
-### 🔬 Skills Distillation — Gradient-Free Prompt Optimizer (2026 Thesis)
+### 🔬 Skills Distillation — Prompt Optimization for Small Models (2026 Thesis)
 > *Can structured instructions help a small language model match larger baselines without fine-tuning weights?*
 
 <p align="center">
   <a href="https://skills-distillation.vercel.app/" target="_blank">
-    <img src="assets/preview_skills_distillation.png" alt="Skills Distillation Dashboard Preview" width="100%" style="border-radius: 8px; border: 1px solid #00e5ff33; box-shadow: 0 4px 25px rgba(0,229,255,0.15);">
+    <img src="assets/preview_skills_distillation.png" alt="Skills Distillation Dashboard Preview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
   </a>
 </p>
 
 - **How it works:** An automated **Teacher → Student → Judge** optimization loop that iteratively analyzes execution errors and rewrites skill instructions for Small Language Models (SLMs).
-- **The Results:** Achieved an average **+17.2% performance gain** (peaking at **+23.6% / 0.921 score**) across Anthropic skill benchmarks without updating model weights.
+- **The Results:** Achieved an average **+17.2% performance gain** (peaking up to **+23.6% / 0.921 score**) across Anthropic skill benchmarks without touching model weights.
 - **Stack:** Python · Claude Haiku · OpenRouter (Gemma 4-26B) · FastAPI · Next.js
 - **Links:** [GitHub Repository ↗](https://github.com/givoxxs/Skills_Distillation) • [Interactive Live Dashboard ↗](https://skills-distillation.vercel.app)
 
 ---
 
-### 👁️ Baby Posture Analysis — Vision Perception & Edge Safety
+### 👁️ Baby Posture Analysis — Infant Sleep Safety with Computer Vision
 > *Real-time edge perception to monitor infant sleep safety and prevent risky sleeping postures.*
 
-- **How it works:** Real-time video processing connecting frame preprocessing, MediaPipe 33-point skeletal landmark tracking, and lightweight classifiers (Random Forest & XGBoost) for low-latency inference on edge nodes.
-- **Why it matters:** Flags critical sleeping postures (prone, supine, side) and blanket coverage in real time, delivering automated alerts to caregivers.
+- **How it works:** A computer vision pipeline connecting video streams through frame-level normalization, MediaPipe 33-point skeletal landmark tracking, and lightweight classifiers (Random Forest & XGBoost) for low-latency inference.
+- **Why it matters:** Detects critical sleeping postures (prone, supine, side) and blanket coverage in real time, delivering automated alerts to caregivers.
 - **Stack:** Python · FastAPI · MediaPipe · OpenCV · Scikit-learn · XGBoost · Docker
 - **Links:** [GitHub Repository ↗](https://github.com/givoxxs/baby_posture_analysis)
 
@@ -105,17 +95,17 @@ When I step away from flight simulation engines, I build experimental 3D WebGL r
 
 ---
 
-<h2 id="avionics">🎛️ [AVIONICS & CORE SPECS] :: Tech Stack</h2>
+<h2 id="skills">🧭 The Tech Stack</h2>
 
-| Subsystem | Modules & Tooling |
+| Domain | Core Tools & Frameworks |
 | :--- | :--- |
-| 🛸 **Simulation & Robotics** | **ROS 2 (Humble)** · Gazebo · Isaac Sim · PX4 Autopilot · FastDDS · OpenVINS · QEMU |
-| 🧠 **Perception & AI Lab** | PyTorch · OpenCV · MediaPipe · Scikit-learn · XGBoost · Automatic Prompt Opt. (APO) |
-| 🌐 **3D Web & Systems** | **Three.js** · WebGL · Next.js · React Native · FastAPI · C/C++ · Docker · PostgreSQL |
+| 🤖 **Simulation & Robotics** | **ROS 2 (Humble)** · Gazebo · Isaac Sim · PX4 Autopilot · FastDDS · OpenVINS · QEMU |
+| 🧠 **Perception & AI** | PyTorch · OpenCV · MediaPipe · Scikit-learn · XGBoost · Prompt Optimization (APO) |
+| 🌐 **3D Web & Creative Systems** | **Three.js** · WebGL · Next.js · React Native · FastAPI · C/C++ · Docker · PostgreSQL |
 
 ---
 
-<h2 id="citations">🎖️ [CITATIONS & CLEARANCE] :: Recognition</h2>
+<h2 id="awards">🏆 Recognition & Milestones</h2>
 
 - 🥇 **Best Architecture Award** — *Real-World AI Implementation Competition (TAS Design Group / DEVDAY2026)*  
   Recognized for designing resilient, low-latency, and scalable system architectures for complex AI deployments.
@@ -126,17 +116,18 @@ When I step away from flight simulation engines, I build experimental 3D WebGL r
 
 ---
 
-<h2 id="comm-link">📡 [COMM LINK] :: Establish Uplink</h2>
+<h2 id="connect">📬 Let's Connect</h2>
 
 Whether you want to discuss physics simulation, autonomous UAV stacks, digital twins, or creative 3D web ideas—my inbox is always open:
 
-<p>
+<p align="center">
+  <img src="assets/mascot_peach_typing.gif" width="160" alt="Coding Panda Mascot" style="margin-bottom: 15px;"><br>
   <a href="https://www.linkedin.com/in/givoxxs/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="mailto:phanvantoan.contact@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
   <a href="https://github.com/givoxxs">
@@ -146,6 +137,6 @@ Whether you want to discuss physics simulation, autonomous UAV stacks, digital t
 
 <br>
 
-```text
-[ SYSTEM LOG: END OF TRANSMISSION // DA NANG, VIETNAM // 2026 ]
-```
+<p align="center">
+  <sub>Crafted with passion in Da Nang, Vietnam · 2026</sub>
+</p>
