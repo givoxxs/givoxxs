@@ -2,3 +2,6 @@
 .agents/
 *.zip
 .staging_assets/
+docs/redesign-2026/
+docs/superpowers/
+PROJECT.md
